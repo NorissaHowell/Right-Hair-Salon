@@ -1,0 +1,165 @@
+/* Box Model Hack */
+* {
+     box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+body{
+     color: black;
+     /* background-color: antiquewhite; */
+     background-color: rgb(224,175,98);
+}
+nav{
+     height: 20px;
+     margin-bottom: 10px;
+}
+header{
+     /*color: white;*/
+     background: url("https://i.ibb.co/5v1HxzD/pexels-godisable-jacob-871495.jpg");
+     background-repeat: no-repeat;
+     background-size: 100%;
+     background-color: rgb(153,106,25);
+     border: solid 3px rgb(117, 113, 113);
+     height: 650px;
+     /* border-bottom-right-radius: 40%; */
+     border-radius: 0 0 10% 70% ;
+}
+.coupon span{
+     font-size: 3rem;
+}
+button, .coupon1{
+     color: white;
+     background-color: black;
+}
+
+.coupon1 button{
+     color: black;
+     background-color: white;
+}
+
+a, li, link, i{
+     text-decoration: none;
+     list-style: none;
+     display: inline-block;
+     color: black;
+}
+h1{
+     font-size: 4rem;
+     font-weight: 100;
+     width: 50%;
+}
+
+.coupon1{
+     padding: 20px 10px 10px 10px;
+     width: 20%;
+     height: 45%;
+}
+li{
+     font-size: 1.2rem;
+}
+
+.coupon2{
+     color: rgb(224, 148, 49);
+     background-color: black;
+     width: 650px;
+     height: 18em;
+     padding: 40px 300px 40px 20px;
+     margin: auto;
+     background-image: url("https://i.ibb.co/cYYpYHP/gideon-hezekiah-8-Yk-E6ve-YNUw-unsplash.jpg");
+     background-position: center top;
+     background-size: 650px;
+}
+
+.lookbookTitle{
+     margin-top: 100px;
+}
+
+.fourthButton{
+     background:white;
+     color: black;
+}
+
+.section6 h3{
+     font-size: 2rem;
+     text-align: center;
+}
+.section6 img{
+     width: 30%;
+}
+.section6{
+     width: 90%;
+     margin: auto;
+}
+/******************************************
+/* LAYOUT
+/*******************************************/
+ul{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+}
+
+.firstButton, .coupon1, h1, header h5{
+     margin-left: 50px ;
+}
+.firstButton, .coupon1{
+     margin-top: 10px;
+}
+
+header h5{
+     margin-top:5px;
+}
+
+.section2{
+     margin-top: 8%;
+     height: 400px;
+     text-align: center;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+
+.section2 img{
+     width: 30%;
+}
+.section2 p{
+     width: 90%;
+     text-align: center;
+     margin: auto;
+}
+.section3{
+     background-color: rgb(153,106,25);;
+     display: flex;
+     justify-content: space-around;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+.section3 h5{
+     font-size: 2.8rem;
+     font-weight: 100;
+     margin: 10% 1%;
+}
+
+.section3 p{
+     font-size: 1rem;
+     margin-right: 3%;
+     margin-left: 3%;
+}
